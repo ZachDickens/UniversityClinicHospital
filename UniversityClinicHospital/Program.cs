@@ -75,12 +75,14 @@ namespace UniversityClinicHospital
                             {
                                 Console.ReadLine();
                                 Console.WriteLine("The Doctor has drawn the patient's blood");
+                                patient.DoctorDrawBlood();
                                 
 
                             }
                             if (Console.ReadLine() == "2")
                             {
                                 Console.WriteLine("The Doctor has given the patient medicine");
+                                patient.GivePatientMedicine();
                             }
                             if (Console.ReadLine() == "3")
                             {
@@ -98,10 +100,12 @@ namespace UniversityClinicHospital
                             if (Console.ReadLine() == "1")
                             {
                                 Console.WriteLine("The Nurse has drawn the patient's blood");
+                                patient.NurseDrawBlood();
                             }
                             if (Console.ReadLine() == "2")
                             {
                                 Console.WriteLine("The Nurse has given the patient medicine");
+                                patient.GivePatientMedicine();
                             }
                             if (Console.ReadLine() == "3")
                             {

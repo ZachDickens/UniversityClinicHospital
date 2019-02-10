@@ -5,7 +5,7 @@ using System.Text;
 namespace UniversityClinicHospital
 {
     public class Patient 
-    {
+    { 
         int BloodLevel { get; set; }
         int HealthLevel { get; set; }
         string Name { get; set; }
