@@ -23,16 +23,7 @@ namespace EmployeeClass.Tests
 
         }
 
-        [Fact]
-        public void DoctorDrawBlood()
-        {
-            //Arrange
-            
-            //Act
-            
-            //Assert
-
-        }
+        
 
         [Fact]
         public void NurseDrawBlood()
@@ -40,7 +31,7 @@ namespace EmployeeClass.Tests
             //Arrange 
             Employee employee = new Employee();
             //Act
-            employee.
+            //employee
             //Assert
         }
     }
